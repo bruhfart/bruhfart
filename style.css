@@ -1,0 +1,31 @@
+*{  
+	margin: 2;    
+	padding 2;
+	}
+	
+html{    
+  background-image: url('resources/img/Animated-Rainbow-in-2019-Rainbow-aesthetic-Rainbow-Animation.gif');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+	
+header {
+	border: 3px solid black;
+    text-align: center;
+    background-color: #8945c9;
+}
+	
+main{    
+	font-family: cursive;
+    border: 3px solid black;
+    text-align: center;
+    font-size: 150%;
+    background-color: white;
+}
+	
+footer{
+	text-align: center;
+	font-family: serif;
+	color: #ffffff;
+}
