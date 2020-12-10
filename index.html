@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html onclick="document.getElementById('hermann').play()" lang="en">
 <head>
 	<meta charset=utf-8>
 	<meta name="h" content="width=device-width, initial-scale=3">
@@ -7,14 +7,14 @@
 	<link rel="icon" href="favicon.ico">
 	<link rel="stylesheet" href="style.css">   
 	<script src="script.js"></script>
-	<audio src="resources/audio/Unser_Hermann.mp3", autoplay loop controls></audio> <!-- remove controls when autoplay works -->
+	<audio id="hermann" src="resources/audio/Unser_Hermann.mp3", autoplay loop></audio> <!-- :crab:CONTROLS:crab:<br>----------<br>:crab:ARE GONE:crab: -->
 	<audio id="wrong" src="resources/audio/price_is_wrong.mp3"></audio>
 	<audio id="ape" src="resources/audio/giant-ape.mp3"></audio>
 </head>
 <body>
+	<img id="funkymode" class="keep" src="resources/img/NewFunkyMode.png" onclick="funky()">
     <header>
-		<button onclick="funky()">Funky Mode!</button>
-		<h1>welcome to the bruh zone!</h1>    
+		<h1>welcome to the bruh zone!</h1>
 		<h2>your #1 place for whatever I end up putting here.</h2>
 		<img src="resources/img/bruhbee.png">
 	</header>    

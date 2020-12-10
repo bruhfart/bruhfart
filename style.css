@@ -29,3 +29,10 @@ footer{
 	font-family: serif;
 	color: #ffffff;
 }
+
+#funkymode{
+	position: fixed;
+	top: 0px;
+	right: 0px;
+	width: 120px;
+}
