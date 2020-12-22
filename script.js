@@ -18,3 +18,9 @@ function funky(){
 		funk = true;
 	}
 }
+function bruh(){
+	let bruh = document.getElementById("bruh");
+	bruh.pause();
+	bruh.currentTime=0.8;
+	bruh.play();
+}
